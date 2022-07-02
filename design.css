@@ -1,0 +1,117 @@
+body {
+    background-color: blue;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+  }
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'calibri', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif0 , serif;
+  }
+  p {
+    position: relative;
+  }
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: #a42a2a;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  a:focus, a:hover,
+  a:link:focus,
+  a:link:hover,
+  a:visited:focus,
+  a:visited:hover,
+  a:active:focus,
+  a:active:hover {
+    color: #1f478f;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  #login-form-wrap {
+    background-color: rgb(51, 185, 84);
+    width: 16em;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+  }
+  #login-form {
+    padding: 0 60px;
+  }
+  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+  }
+  #email,#name,
+  #password {
+    width: 90%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative;
+    display: inline-block;
+    background: rgb(206, 206, 206);
+  }
+  #email:focus,
+  #password:focus {
+    border-color: #e23ca8;
+  }
+ 
+  input[type="submit"] {
+    border: none;
+    width: 90%;
+    display: block;
+    background-color: #8c9d2b;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+  }
+  input[type="submit"]:hover {
+    background-color: #96255c;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  #create-account-wrap {
+    background-color: rgb(224, 254, 255);
+    color: #ba1f1f;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+
+  }
+  p{
+    font-size: medium;
+    font-family: 'calibric', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
+    color: #41702b;
+  }
+  a
+  {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'calberic', Times, serif;
+  }
